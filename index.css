@@ -1,0 +1,233 @@
+html{
+    background-color: #4aa442;
+}
+
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 4em;
+    color:white;
+    text-shadow: 3px 0 0 #000, 0 -3px 0 #000, 0 3px 0 #000, -3px 0 0 #000;
+
+}
+.navigation{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    background-color: #1e421a;
+    
+}
+
+.navigation a{
+    font-size: 3em;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    transition:0.3s;
+    padding: 0.2em;
+}
+
+.navigation a:hover{
+    color:#4aa442;
+    transform: scale(1.2);
+}
+
+.meetTheSigs{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.sig {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sig img{
+    transition:0.3s;
+    -webkit-filter: brightness(100%);
+}
+
+.sig img:hover{
+    transform: scale(1.1);
+    -webkit-filter: brightness(70%);
+}
+
+
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+    color: white;
+    text-shadow: 3px 0 0 #000, 0 -3px 0 #000, 0 3px 0 #000, -3px 0 0 #000;
+    padding: .5em;
+    margin:0;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-shadow: 3px 0 0 #000, 0 -3px 0 #000, 0 3px 0 #000, -3px 0 0 #000;
+    font-size: 2em;
+    text-align: center;
+    padding: .5em;
+    margin: 0;
+    
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    padding:3em;
+}
+
+.sig h3{
+    font-size: 2.5em;
+    color: white;
+    text-shadow: 3px 0 0 #000, 0 -3px 0 #000, 0 3px 0 #000, -3px 0 0 #000;
+}
+
+.socialMedia {
+    display: flex;
+    justify-content: center;
+}
+
+.socialMedia img{
+    transition:0.3s;
+    padding-bottom: 1em;
+    padding: 1em;
+}
+
+.socialMedia img:hover{
+
+   transform: scale(1.1);
+
+}
+
+.info{
+    background-color: #2d6127;
+    border-radius: 20px;
+    outline-style: solid;
+    outline-color: black;
+    outline-width: 0.3em;
+    margin:.55em;   
+}
+
+div.gameButton {
+    display:flex;
+  justify-content: center;
+
+}
+
+button{
+    border-radius: 45px;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    width:40%;
+    background-color: transparent;
+    outline-style: solid;
+    outline-color: black;
+    outline-width: 0.1em;
+   transition:0.3s;
+   padding:.5em;
+   margin:1em;
+
+}
+
+button:hover{
+   transform: scale(1.05);
+
+}
+
+.gameInfo li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: .55em;
+}
+.gameInfo li.hidden {
+    display: none;
+}   
+
+.gameInfo{
+    display: flex;
+    justify-content: center;
+}
+
+.sceneGameInfo li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: .55em;
+}
+
+.sceneGameInfo li.sceneHidden{
+    display:none
+}
+
+.gimickyGameInfo li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: .55em;
+}
+
+.gimickyGameInfo li.gimickyHidden{
+    display: none;
+}
+
+.alumni{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.alumni li{
+    font-size: 2em;
+    color: white;
+    text-shadow: 3px 0 0 #000, 0 -3px 0 #000, 0 3px 0 #000, -3px 0 0 #000;
+    padding: .5em;
+    margin:0;
+    list-style: none;
+
+}
+
+div.historyButton{
+    display: flex;
+    justify-content: center;
+}
+.rock {
+    display: flex;
+justify-content: center;
+padding:0.3em
+}
+
+h3{
+    font-size: 2em;
+    color: white;
+    text-shadow: 3px 0 0 #000, 0 -3px 0 #000, 0 3px 0 #000, -3px 0 0 #000;
+    padding: .5em;
+    margin:0;
+}
+
+.shirtDesigns li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shirtDesigns li.hidden{
+    display: none;
+}
+
+.contact a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+
+}

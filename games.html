@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <script src="games.js" defer></script>
+
+    <title>Games</title>
+  </head>
+  <body>
+    <div class="navigation">
+      <a href="index.html">Main</a>
+      <a href="games.html">Games</a>
+      <a href="alumni.html">Alumni</a>
+      <a href="history.html">History</a>
+      <a href="contact.html">Contact</a>
+    </div>
+
+    <h1>Games!</h1>
+    <p>
+      We play games, people laugh. Click a category for all games in that
+      category. Category. Category.
+    </p>
+
+    <h2>Guessing Games</h2>
+
+    <div class="gameButton">
+      <button id="guessingGames">Guessing Games</button>
+    </div>
+
+    <div class="gameInfo">
+      <li class="hidden">
+        <div class="info">
+          <h2>True Confessions</h2>
+          <p>
+            Two cops grill a suspect on a crime that they committed. The
+            guessing part? The suspect doesn't know what they did. The audience
+            provides a crime, an accomplice, and a place that the suspect
+            escaped to.
+          </p>
+        </div>
+
+        <div class="info">
+          <h2>Weird Newscasters</h2>
+          <p>
+            The local news station has hired a brand new co-anchor to work
+            alongside the veteran anchor, meteorologist, and sports person. The
+            kicker? The latter of the three have a group quirk that unify them,
+            provided by the audience (For instance, they are all obsessed​ with
+            deli meats.). It's the job of the co-anchor to guess what makes this
+            news team so weird.
+          </p>
+        </div>
+
+        <div class="info">
+          <h2>Press Conference</h2>
+          <p>
+            One Signal gives a press conference on a world-changing event,
+            provided by the audience, without knowing what the event is. They
+            try to guess what the event is, while answering questions from other
+            troupe members which give clues as to the nature of the event.
+          </p>
+        </div>
+
+        <div class="info">
+          <h2>Eulogy</h2>
+          <p>
+            Someone has died! Oh no! The good news is that one of the lovely
+            Mixed Signals will give a stirring eulogy to the recently-departed
+            (can be real or fictional, and is provided by the audience). The bad
+            news? The Signal has no idea who that person is. The rest of the
+            Signals, sitting in the audience, help the Eulogizer along by
+            shouting "Hallelujah!" when the Eulogizer says something correct,
+            and shouting "HELL no!" when they say something incorrect.
+          </p>
+        </div>
+
+        <div class="info">
+          <h2>Party Quirks</h2>
+          <p>
+            A Signal is hosting a party! Three other Signals, the guests,
+            receive strange quirks (physical or otherwise) from the audience and
+            enter the party as the host tries to guess what their quirks are.
+            All as they try to be a good host.
+          </p>
+        </div>
+
+        <div class="info">
+          <h2>Dating Game</h2>
+          <p>
+            Three Signals are given personality trait by the audience. The
+            Single Signal asks questions to try and figure out each quirk, and
+            pick the best (or at least the least awkward) person to go on a date
+            with.
+          </p>
+        </div>
+
+        <div class="info">
+          <h2>Santa's Lap</h2>
+          <p>
+            A game for the holidays, based on the premise that three children
+            with weird audience-provided quirks have come to ask Santa for
+            something for Christmas. Santa's job is to guess each child's quirk.
+            Santa has an elf nearby to give clues if Santa just doesn't get it.
+          </p>
+        </div>
+
+        <div class="info">
+          <h2>Satan's Lap</h2>
+          <p>
+            Similar to Santa's Lap, except sinners will be brought to Hell to
+            sit on the Devil's lap (not really), as Satan tries to guess their
+            sins. Satan's faithful imp will be present to serve drinks, provide
+            witty banter, and give Satan clues if they don't seem to be getting
+            it.
+          </p>
+        </div>
+      </li>
+    </div>
+
+    <div class="gameButton">
+      <button id="sceneGames">Scene Based Games</button>
+    </div>
+
+    <div class="sceneGameInfo">
+      <li class="sceneHidden">
+        <div class="info">
+          <h2>Ding!</h2>
+          <p>
+            A normal two-person scene except that any line, action, or sound
+            effect can be "ding!ed" (changed) at the whim of an off-stage
+            performer.
+          </p>
+        </div>
+
+        <div class="info">
+          <h2>Time Warp</h2>
+          <p>
+            A two-person scene that can be moved backwards or forwards in
+            time--to past or future events--by a Signal off-stage.
+          </p>
+        </div>
+
+        <div class="info">
+          <h2>First Line, Last Line</h2>
+          <p>
+            The audience provides the first and last lines of a scene; the
+            performers have to do the rest.
+          </p>
+        </div>
+
+        <div class="info">
+          <h2>Five-Letter Word</h2>
+          <p>
+            Each line of this otherwise ordinary scene must start with the next
+            letter of an audience-provided five-letter word. Example: WEEDS -We
+            are in big trouble this time. -Even though we put the cap back on?
+            -Evan, it wasn't screwed on all the way. You know how mom hates when
+            her toothpaste dries out. -Do I ever! Last time we did that, she
+            killed the cat! -Shame it was the neighbors cat.
+          </p>
+        </div>
+
+        <div class="info">
+          <h2>Waiting For Charlie</h2>
+          <p>
+            Two Signals stage start a scene and begin to describe "Charlie" (an
+            offstage character that the audience hasn't seen yet), giving them
+            strange physical, emotional, and personality characteristics (ex:
+            has one arm, screams whenever someone says their name, and always
+            makes terrible jokes). Eventually, "Charlie" joins the scene and it
+            progresses from there.
+          </p>
+        </div>
+
+        <div class="info">
+          <h2>Soap Opera</h2>
+          <p>
+            his game is a scene within a scene. The audience gives a "first
+            world problem" (for instance, when you run out of paper clips), and
+            the scene is either played super-dramatically, or the problem serves
+            as a euphemism for a more serious issue. Drama abounds. Example One:
+            Running out of paper clips, but as dramatic as if the paper clips
+            kept the Earth spinning. Example Two: Performing a scene about a
+            deflated balloon AS IF performing a scene about impotence.
+          </p>
+        </div>
+
+        <div class="info">
+          <h2>Oscar Winning Moment</h2>
+          <p>
+            Two Signals act out a scene, while a third serves as a "DJ" and
+            pre-selects three instrumentals (usually) of any genre. At any point
+            in the scene, a Signal will ding, and the DJ plays one of the songs,
+            with the acting Signals changing the mood of the scene to match.
+            When the song ends--determined by the DJ--the Signals snap back to
+            the mood before the song was played.
+          </p>
+        </div>
+
+        <div class="info">
+          <h2>2-3-4-5</h2>
+          <p>
+            In this game, the audience suggests a word that can be used in
+            multiple ways (such as "space" or "bat"). Two performers start the
+            scene using that word. At some point in that scene, the next
+            performer will freeze the scene, and the two on stage will return to
+            a neutral position as the new performer creates a new, three-person
+            scene based off that word. This continues until a five-person scene
+            is performed. Then, in reverse order, performers will leave the
+            scene. The scenes progress backwards through the scenes already
+            performed until it gets back to the original two-person scene, which
+            ends the game.
+          </p>
+        </div>
+
+        <div class="info">
+          <h2>Hollywood Director</h2>
+          <p>
+            In this game, one Signal is the eponymous "director," and the other
+            three are their actors. With an audience suggestion, the director
+            comes up with a scene for the performers to act out. At some point
+            in this scene, the Director will "cut' the scene, and add a
+            twist--for example, "Do the same scene, but act like you're on
+            fire." Usually, three twists will be added, cumulatively or
+            otherwise, before the scene is "perfect."
+          </p>
+        </div>
+
+        <div class="info">
+          <h2>Continuation</h2>
+          <p>
+            This game involves two pairs of performers. The first pair starts
+            the scene and when a Signal off-stage rings the bell, the second
+            pair takes their place and continues the scene as the same
+            characters where it left off. They continue to switch back and
+            forth, often with greater frequency as the action in the scene
+            heightens.
+          </p>
+        </div>
+
+        <div class="info">
+          <h2>La Ronde</h2>
+          <p>
+            The namesake of L'Swipe, this is a game for four Signals. Two
+            Signals start a normal scene from a word, but at some point, one
+            leaves. From there, the third Signal enters the scene, and has a
+            scene with the second Signal, who keeps the same character and
+            location. Then the second Signal leaves, the fourth enters, and so
+            on, until the fourth Signal and the first (still playing the same
+            character from the beginning) have a short "button" to end the game.
+          </p>
+        </div>
+
+        <div class="info">
+          <h2>L'Swipe</h2>
+          <p>
+            This is a long-form game in which an audience member gives a word
+            that then inspires a montage of scenes. A scene can be "swiped"
+            (stopped) and a new scene can be started in its place or it can be
+            "frozen" (another person can enter the scene). One of our longer
+            games.
+          </p>
+        </div>
+
+        <div class="info">
+          <h2>Crazy-Prov</h2>
+          <p>
+            This is a game that involves any and every improv game there is
+            (mostly). Starting with L'Swipe, a scene is performed. At any time,
+            a Signal can ding to make a performer change their line (a la
+            Ding!), to change their emotion (a la emotion game), to change the
+            genre (a la FATS), to change the "that time" (a la Time Warp), and a
+            host of other wacky twists. And it continues to change until we
+            (hopefully) have a fully-developed scene with lots of sudden
+            changes. It's CRAZY IMPROV!!
+          </p>
+        </div>
+
+        <div class="info">
+          <h2>No Minor Characters</h2>
+          <p>
+            A scene goes on as usual, but if a character leaves the scene, the
+            scene follows that character. Another longer game. Ex: There is a
+            party going on. The host leaves the living room to get more punch.
+            Then, the scene moved to the kitchen, with the host getting punch
+            (no longer at the party).
+          </p>
+        </div>
+      </li>
+    </div>
+
+    <div class="gameButton">
+      <button id="gimickyGames">Gimmicky Games</button>
+    </div>
+    <div class="gimickyGameInfo">
+      <li class="gimickyHidden">
+        <div class="info">
+          <h2>FATS (Film and Theater Styles)</h2>
+          <p>
+            A two-person scene starts as normal, but is changed to different
+            film and theater styles (drama, MTV, horror, western, etc.) as the
+            scene progresses at the whim of the Signals in the back. So, a scene
+            about building a house could suddenly turn into a horror film, and
+            then a cooking show. Suggestions are gathered from the audience
+            before the show.
+          </p>
+        </div>
+
+        <div class="info">
+          <h2>Family Vacation</h2>
+          <p>
+            The Mixed Signals went on a trip to (audience suggestion). Two host
+            Signals describe to the audience each picture in their
+            scrapbook/PowerPoint/evidence folder, and the rest of the Signals
+            silently pose to demonstrate what is described in each picture.
+            Action is allowed in the case of "videos" or "flip-books."
+          </p>
+        </div>
+
+        <div class="info">
+          <h2>Pull the Line</h2>
+          <p>
+            A two-person scene goes on as usual except, at any point in the
+            scene, a Signal will pull a line from their pocket and use it in the
+            scene. The lines are all audience suggestions gathered before the
+            show.
+          </p>
+        </div>
+
+        <div class="info">
+          <h2>Three Line Scene</h2>
+          <p>
+            A three-person scene in which two of the Signals are only allowed to
+            say three lines each (a question, a statement, and an exclamation
+            suggested by the audience) while the third Signal has to make it all
+            work on their own!
+          </p>
+        </div>
+
+        <div class="info">
+          <h2>Number of Words</h2>
+          <p>
+            Similar to Three Line Scene, but instead of giving specific phrases,
+            the two Signals are given a number from one to five, and only
+            allowed to use that many words per line. So if someone had the
+            number "two," they could say "Good job!" but not "You did well!" or
+            "Great!"
+          </p>
+        </div>
+
+        <div class="info">
+          <h2>Emotion Game</h2>
+          <p>
+            A two-person scene in which one performer embodies that emotion more
+            and more whenever the bell rings (the bell is dung at the whim of
+            the Signals). There are also special, holiday-specific games such as
+            Monster Game (Halloween), and Love Game (Valentine's Day)
+          </p>
+        </div>
+
+        <div class="info">
+          <h2>Questions Only</h2>
+          <p>
+            This game involves exactly what you'd expect: questions only! The
+            Signals stand in the back as two at a time step up and perform a
+            "talking heads" scene, but they're only allowed to ask questions.
+            The performers rotate in and out as Signals mess up and don't ask
+            questions.
+          </p>
+        </div>
+
+        <div class="info">
+          <h2>Alphabet Game</h2>
+          <p>
+            A game similar in layout to Questions Only, but the Signals start
+            each line with a letter of the alphabet and have to make their way
+            through from there. Signals switch out as the two in front mess up.
+          </p>
+        </div>
+
+        <div class="info">
+          <h2>World's Worst</h2>
+          <p>
+            All performers stand in a line and answer the question "What is the
+            world's worst _____?" The suggestions are gathered from the audience
+            before the show.
+          </p>
+        </div>
+
+        <div class="info">
+          <h2>Half Life</h2>
+          <p>
+            A normal two-person scene is performed in two minutes. The same
+            scene is then performed in one minute, then thirty seconds, and then
+            fifteen seconds, trying to get all the events in and beat the clock.
+            One Signal usually serves as a walk-on in the halfway point of each
+            scene to serve as a "time check" for the two main Signals.
+          </p>
+        </div>
+
+        <div class="info">
+          <h2>What the F***, Chuck?</h2>
+          <p>
+            This is a game for four Signals. The first two act out a scene from
+            a word while the other two listen to loud music in the back of the
+            room. After the first scene, the second pair try to recreate the
+            scene based the original blocking and gestures. This rarely goes as
+            planned.
+          </p>
+        </div>
+
+        <div class="info">
+          <h2>Gbugly (The Good, The Bad, and the Ugly)</h2>
+          <p>
+            One Signal serves as a host for a fantastic advice-giving creation,
+            with three Signals each serving as the Good, the Bad, and the Ugly.
+            The host takes questions from the audience, with each part of the
+            creation answering the question in-character: the Good is earnest,
+            the Bad is crass, and the Ugly is ... ugly. After each question the
+            Signals, minus the host, swap places to act as the next character.
+          </p>
+        </div>
+
+        <div class="info">
+          <h2>Oracle</h2>
+          <p>
+            Similar to Gbugly in that a host takes questions from the audience,
+            but three Signals instead form a machine known as the "Oracle": one
+            Signal kneeling, one sitting behind them on a chair, and one
+            standing behind the second. Starting with the Signal in the back,
+            each part of the Oracle helps answer the question, one word at a
+            time. Known as "Menorahcle" for the Holiday Show.
+          </p>
+        </div>
+
+        <div class="info">
+          <h2>Hey, You Down There!</h2>
+          <p>
+            This is a game for four Signals, who work together to put together a
+            scene demonstrating an action or profession, in the style of cheesy
+            1950s infomercials. One Signal serves as the "narrator," giving
+            direction to two other Signals, who silently act out what the
+            narrator has them do. A final Signal acts as the DJ, playing 50s-era
+            commercial music to add to the scene.
+          </p>
+        </div>
+
+        <div class="info">
+          <h2>Challenge!</h2>
+          <p>
+            Four Signals line up on stage and are given a topic by the audience.
+            One of them will step forward and talk about the topic (even if they
+            don't know about it and are making it up). At any point, another
+            Signal can shout "Challenge!" and challenge one or all of the
+            "facts" just stated. A host will then decide who is "right," and
+            that person will continue until he or she is challenged by someone
+            else. Whoever is in front when the two-minute timer runs out is the
+            "winner."
+          </p>
+        </div>
+
+        <div class="info">
+          <h2>Thanksgiving Game</h2>
+          <p>
+            A once-a-year long-form game, played at our Thanksgiving Show. An
+            audience member is grilled about their Thanksgiving traditions and
+            about members of their family that would usually be present. The
+            Signals then perform the audience member's typical Thanksgiving,
+            acting as members of their family.
+          </p>
+        </div>
+      </li>
+    </div>
+  </body>
+</html>
