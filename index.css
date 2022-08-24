@@ -29,7 +29,6 @@ h1{
 
 .navigation a:hover{
     color:#4aa442;
-    transform: scale(1.2);
 }
 
 .meetTheSigs{
@@ -48,6 +47,8 @@ h1{
 .sig img{
     transition:0.3s;
     -webkit-filter: brightness(100%);
+    width: 15%;
+    height: auto;
 }
 
 .sig img:hover{
@@ -197,7 +198,13 @@ button:hover{
     list-style: none;
 
 }
+.alumni a{
+    text-decoration: none;
+}
 
+.alumni  li:hover{
+    color:#4aa442;
+}
 div.historyButton{
     display: flex;
     justify-content: center;
@@ -214,6 +221,8 @@ h3{
     text-shadow: 3px 0 0 #000, 0 -3px 0 #000, 0 3px 0 #000, -3px 0 0 #000;
     padding: .5em;
     margin:0;
+    display: flex;
+    justify-content: center;
 }
 
 .shirtDesigns li{
