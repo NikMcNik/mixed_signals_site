@@ -42,18 +42,24 @@ h1{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width:50%
 }
 
 .sig img{
     transition:0.3s;
-    -webkit-filter: brightness(100%);
-    width: 15%;
+    filter: brightness(100%);
+    width: 100%;
+    height: auto;
+}
+.sig a {
+  text-align: center;
+    width:30%;
     height: auto;
 }
 
 .sig img:hover{
     transform: scale(1.1);
-    -webkit-filter: brightness(70%);
+    filter: brightness(70%);
 }
 
 
@@ -239,4 +245,19 @@ h3{
     text-decoration: none;
     color:rgb(255, 255, 255);
 
+}
+
+.sigbio{
+
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.sigbio img{
+margin-top: 1em;
+width: 30%;
+height: auto;
 }
